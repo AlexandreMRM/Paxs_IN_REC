@@ -24,4 +24,4 @@ COPY . .
 
 EXPOSE 8081
 
-CMD ["streamlit", "run", "Paxs_IN_REC.py", "--server.port=8081", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "Paxs_IN_REC.py", "--server.port=8081"]
